@@ -1,0 +1,7 @@
+<h1>This is the second fields template</h1>
+<h3>Farmer {{name}} has {{fields.length}} fields.</h3>
+<ul>
+    {{#fields}}
+    <li>{{../name}} has {{acres}} of {{crop}} in {{location}}.</li>
+    {{/fields}}
+</ul>

@@ -1,0 +1,16 @@
+<h1>This is the first fields template</h1>
+<h3>Farmer {{name}} has {{fields.length}} fields.</h3>
+<table>
+    <tr>
+        <th>Location</th>
+        <th>Crop Type</th>
+        <th>Acres</th>
+    </tr>
+    {{#fields}}
+    <tr>
+        <td>{{location}}</td>
+        <td>{{crop}}</td>
+        <td>{{acres}}</td>
+    </tr>
+    {{/fields}}
+</table>

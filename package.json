@@ -1,0 +1,27 @@
+{
+  "name": "handlebars-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@serverless/typescript": "^2.71.0",
+    "@types/aws-lambda": "^8.10.89",
+    "serverless-dotenv-plugin": "^3.12.2",
+    "serverless-middleware": "^0.0.15",
+    "serverless-offline": "^8.3.1",
+    "serverless-plugin-typescript": "^2.1.0",
+    "ts-node": "^10.4.0"
+  },
+  "dependencies": {
+    "@nbm/riposte": "^1.0.10",
+    "handlebars": "^4.7.7",
+    "path": "^0.12.7",
+    "puppeteer": "^13.1.1"
+  }
+}
