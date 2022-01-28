@@ -1,5 +1,4 @@
 import { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda';
-import { Riposte } from '@nbm/riposte';
 import Handlebars from 'handlebars';
 import * as fs from 'fs';
 import * as path from 'path';
@@ -30,5 +29,8 @@ export const makeHtml = async (event: APIGatewayProxyEvent): Promise<APIGatewayP
   }
 
   // Return the Base64-encoded PDF
-  return Riposte.ok(data.html ? html : pdf);
+  return {
+    statusCode: 200,
+    body: (data.html ? html : pdf),
+  };
 };

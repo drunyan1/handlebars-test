@@ -16,10 +16,10 @@
     "serverless-middleware": "^0.0.15",
     "serverless-offline": "^8.3.1",
     "serverless-plugin-typescript": "^2.1.0",
-    "ts-node": "^10.4.0"
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
   },
   "dependencies": {
-    "@nbm/riposte": "^1.0.10",
     "handlebars": "^4.7.7",
     "path": "^0.12.7",
     "puppeteer": "^13.1.1"
